@@ -1,0 +1,8 @@
+setup.py
+toxic_classifier/__init__.py
+toxic_classifier/classifier.py
+toxic_comment_classifier.egg-info/PKG-INFO
+toxic_comment_classifier.egg-info/SOURCES.txt
+toxic_comment_classifier.egg-info/dependency_links.txt
+toxic_comment_classifier.egg-info/requires.txt
+toxic_comment_classifier.egg-info/top_level.txt

@@ -10,6 +10,9 @@ Project Setup: I created a folder containing all the necessary code for toxic co
 Setup File: I defined a setup.py file outside the project directory. This file facilitates creating and distributing the Python package.
 
 # Workflow (How it Works Internally):
+
+![1000090839](https://github.com/user-attachments/assets/2ef6ba98-5f69-4a57-940f-cea8e5adcd46)
+
 > When I run python3 setup.py sdist bdist_wheel, the first step is that Python reads setup.py, which contains the setuptools function. This function provides essential metadata, listing all necessary packages, subpackages, and version requirements for the project. The function reads this configuration to set up the package environment for distribution.
 
 > The sdist command stands for "source distribution." In this step, setuptools gathers all the required files in the project, including __init__.py, source code files (.py), and additional files like the stored model. This ensures that all resources required for the package are included in the distribution. find_packages() in setup.py scans project directories for folders with __init__.py, identifying them as packages and including them in the distribution.
